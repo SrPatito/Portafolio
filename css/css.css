@@ -1,0 +1,364 @@
+@font-face{    
+font-family:Fabrica;   
+}
+* {
+margin: 0;
+padding: 0;
+font-family:Fabrica;   
+}
+.header {
+width: 100%;
+height: auto;
+background-color: #F8F8F8;
+    
+  
+}
+
+body {
+	background: white;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+#contenedor {
+	margin: 0 auto;
+    text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+nav {
+	margin: 0px 0px;
+text-align: center;
+margin-left: auto;
+    
+background-color: #171717;
+    
+
+    
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+    -webkit-box-shadow: 1px 18px 23px -13px rgba(0,0,0,0.35); 
+box-shadow: 1px 18px 23px -13px rgba(0,0,0,0.35);
+    
+    
+    
+	}
+	
+nav ul li {
+	display:inline-block;
+background-color: #171717;
+
+	}
+
+nav a {
+	display:block;
+	padding:0 21px;	
+	color:#FFF;
+	font-size:14px;
+	line-height: 60px;
+	text-decoration:none;
+    transition: 0.8s;
+
+}
+
+nav a:hover { 
+	background-color: #252525;
+        transition: 0.7s;
+
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+    right: 550px;
+
+    
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+    
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:145px;
+	float:none;
+	display:list-item;
+	position: relative;
+
+    
+}
+nav ul ul:hover {
+    
+    
+    
+transition: 7s;    
+    
+}
+
+.caja1{
+width: 100%;
+height: 500px;
+background-color: black;
+
+}
+.caja2{
+justify-content: center;
+display: flex;        
+align-items: center;
+margin-right: 100px;
+}
+.divisiones {
+background-color: #171717; 
+width: 100%;
+height: 700px;
+margin: auto;
+margin-top: -8px;    
+    
+    
+    
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;    
+    
+    
+}
+.Destacado{
+font-size: 30px;
+position: absolute;
+margin-top: 50px;    
+    
+    
+    
+    
+}
+
+.divi1 {
+    
+background-color:#171717; 
+width: 950px;
+height: 471px;
+margin: 70px;
+border: 2px solid #fff;
+margin-top: 160px;    
+
+cursor: pointer;
+}
+
+
+
+footer{
+    
+    width: 100%;
+    height:6em;
+	background-color: #252525;
+    margin-top: 50px;
+    
+    
+
+}
+.degra1{
+   width: 950px;
+height: 471px; 
+-webkit-border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+border-radius: 40px 40px 40px 40px;    
+    
+
+}
+.ds_btn {
+    width: 100px;
+    height: 30px;
+    background-color:#175ABB;
+    color: #fff;
+    text-align: center;
+    margin-top: 430px;
+    padding-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 700px;
+    font-size: 17px;
+
+    
+}
+.redess{
+height: 300px;    
+width: 100%;
+background-color: #171717;
+display: flex;    
+justify-content: center;    
+    
+}
+.facebookk {
+    
+width: 300px;    
+height: 300px; 
+margin-left: 150px;    
+}
+.facebook{
+    
+width: 70px;
+height: 70px;
+margin-top: 50px;    
+cursor: pointer;
+    
+}
+.facebookk2 a:hover{
+    
+color: dodgerblue;    
+transition: 0.7s;
+font-size: 21px;    
+    }
+.facebookk a:hover{
+  
+ position: absolute;
+    margin-top: -10px;
+    transition: 1s;    
+   }
+.github {
+    
+width: 300px;    
+height: 300px; 
+margin-left: 150px;    
+}
+
+.githubb {
+    
+width: 90px;    
+height: 90px; 
+margin-top: 40px;
+    margin-left: 20px;
+     cursor: pointer;    
+}
+.github2 a:hover{
+    
+color: darkviolet;    
+transition: 0.7s;
+font-size: 21px;
+    
+    }
+.github a:hover{
+    position: absolute;
+    margin-top: -10px;
+    transition: 1s;  
+   }
+.insta {
+    
+width: 300px;    
+height: 300px; 
+margin-left: 150px;    
+}
+
+.instagram {
+    
+width: 90px;    
+height: 90px; 
+margin-top: 40px;    
+cursor: pointer;   
+    
+}
+.insta a:hover{
+    
+    position: absolute;
+    margin-top: -10px;
+    transition: 1s;      
+    }
+.insta2 a:hover{
+    
+color: dodgerblue;    
+transition: 0.7s;
+font-size: 21px
+}
+.text{
+    
+font-size: 20px;
+text-align: center;
+margin-top: 200px;
+color: white;
+position: absolute;
+margin-left: -310px;  
+text-decoration: none;    
+    
+    
+    
+}
+.text2{
+    
+font-size: 20px;
+margin-top: 200px;
+color: white;
+position: absolute;
+margin-left: -265px;  
+text-decoration: none;
+    
+    
+}
+.text3{
+    
+font-size: 20px;
+text-align: center;
+margin-top: 200px;
+color: white;
+position: absolute;
+margin-left: -300px;  
+text-decoration: none;
+    
+}
+.pagina {
+    
+text-decoration: none;
+color: #00a1ff;  
+position: absolute;
+margin-left: -20em;
+margin-top: 70px;
+font-size: 15px;    
+    
+} 
+video{
+    width: 100%;
+    height: 450px;
+}
+
+.absolute{
+
+    justify-content: center;
+    align-items:center;
+    background-color: #171717;
+    height: 450px;
+    width: 100%;
+}
+.correo{
+background-color: #171717;
+height: 132px;
+width: 100%;
+justify-content: center;
+display: flex;
+align-items: center;
+    
+    
+}
+.correoo{
+height: 70px;
+width: 75px;
+margin-top: -30px;    
+margin-left: -120px;    
+}
+.co{
+    
+font-size: 13px;    
+margin-top: 75px;    
+}
